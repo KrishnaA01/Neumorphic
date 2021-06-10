@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bigbox{
+    border: 1px solid black;
+    width: 1020px;
+    height: 40vh;
+    margin: 50px auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #D4F3D4;
+}
+
+
+.icon-1::before {
+    content: '';
+    background-image: url("/images/file.svg");
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    padding-right: 6px;
+   
+  
+
+
+}
+.icon-2::before {
+    content: '';
+    background-image: url("/images/paste.svg");
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    padding-right: 6px;
+    
+    
+}
+
+.icon-3::before {
+    content: '';
+    background-image: url("/images/scissors.svg");
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    padding-right: 6px;
+    
+}
+
+.shadow {
+  align-items: center;
+  background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  border-radius: 50px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 200px;
+  transition: all 0.7s ease,
+  padding 0.6s linear;
+    
+}
+
+div.icon-1{
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+div.icon-2{
+    box-shadow:
+    -8px 8px 12px 0 rgba(0, 0, 0, 0.3),
+    12px -12px 16px rgba(255, 255, 255, 0.25);
+}
+
+div.icon-3{
+    box-shadow: 
+    8px -8px 12px 0 rgba(0, 0, 0, 0.3),
+    -12px 12px 16px rgba(255, 255, 255, 0.25);
+}
+
+div.shadow:hover{
+    width: 170px;
+    height: 160px;
+    color: red;
+   
+}
+              
+
+
+
+
+
+
